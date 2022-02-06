@@ -1,7 +1,7 @@
 package lesson8;
 
-public class Plate {
-    private int food;
+public class Plate extends HomeWorkApp{
+    public int food;
 
     public Plate(int food){
         this.food = food;
@@ -21,4 +21,6 @@ public class Plate {
     public String toString(){
         return " еды в миске " + food;
     }
+
+
 }

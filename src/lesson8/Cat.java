@@ -13,9 +13,9 @@ public class Cat {
     }
     public String printHungry() {
         if (hungry) {
-            return name + " голоден ";
-        }else {
             return name + " сыт ";
+        }else {
+            return name + " голоден ";
         }
     }
     public void eat(Plate p){
